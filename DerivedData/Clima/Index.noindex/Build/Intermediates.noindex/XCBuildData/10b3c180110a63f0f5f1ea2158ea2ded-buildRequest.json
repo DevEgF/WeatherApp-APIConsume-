@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "fc102aecfb61404b0d61b23a3252b21bc70a9e433c5f2bf892725148834c7695"
+    }
+  ],
+  "containerPath" : "/etc/dev/ios/Clima-iOS13-Completed/Clima.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/etc/dev/ios/Clima-iOS13-Completed/DerivedData/Clima/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/etc/dev/ios/Clima-iOS13-Completed/DerivedData/Clima/Index.noindex/Build/Products",
+      "derivedDataPath" : "/etc/dev/ios/Clima-iOS13-Completed/DerivedData",
+      "indexDataStoreFolderPath" : "/etc/dev/ios/Clima-iOS13-Completed/DerivedData/Clima/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/etc/dev/ios/Clima-iOS13-Completed/DerivedData/Clima/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/etc/dev/ios/Clima-iOS13-Completed/DerivedData/Clima/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/etc/dev/ios/Clima-iOS13-Completed/DerivedData/Clima/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
